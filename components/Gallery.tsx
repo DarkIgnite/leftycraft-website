@@ -5,16 +5,16 @@ import Image from 'next/image';
 import { X, ZoomIn } from 'lucide-react';
 
 const galleryImages = [
-  { src: '/images/gallery-1.png', alt: 'Spawn Area', span: 'row-span-2' },
-  { src: '/images/gallery-2.png', alt: 'Warp Crate', span: 'row-span-2' },
-  { src: '/images/gallery-3.png', alt: 'Dungeon Room', span: 'row-span-2' },
+  { src: '/images/gallery-1.webp', alt: 'Spawn Area', span: 'row-span-2' },
+  { src: '/images/gallery-2.webp', alt: 'Warp Crate', span: 'row-span-2' },
+  { src: '/images/gallery-3.webp', alt: 'Dungeon Room', span: 'row-span-2' },
   {
-    src: '/images/gallery-4.png',
+    src: '/images/gallery-4.webp',
     alt: 'Boss Dungeon Room',
     span: 'row-span-2',
   },
-  { src: '/images/gallery-5.png', alt: 'Overworld Build', span: 'row-span-2' },
-  { src: '/images/gallery-6.png', alt: 'Dungeon Trader', span: 'row-span-2' },
+  { src: '/images/gallery-5.webp', alt: 'Overworld Build', span: 'row-span-2' },
+  { src: '/images/gallery-6.webp', alt: 'Dungeon Trader', span: 'row-span-2' },
 ];
 
 export default function Gallery() {

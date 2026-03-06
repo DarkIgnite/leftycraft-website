@@ -48,7 +48,7 @@ export default function Hero() {
       {/* Background with Minecraft screenshot and dark overlay */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-bg.jpg"
+          src="/images/hero-bg.webp"
           alt="Minecraft World"
           fill
           className="object-cover"
